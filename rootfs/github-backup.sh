@@ -6,8 +6,8 @@ echo "[github-backup.sh] Execute backup ${DATE}"
 
 for user in $(echo $GITHUB_USER | tr "," "\n"); do
     echo "[github-backup.sh] Execute backup for user '${user}'"
-    exec github-backup ${user} --token=${GITHUB_TOKEN} --output-directory=/data/${DATE}/${user} ${GITHUB_BACKUP_OPTIONS}
+    github-backup ${user} --token=${GITHUB_TOKEN} --output-directory=/data/${DATE}/${user} ${GITHUB_BACKUP_OPTIONS}
 done
 
 echo "[github-backup.sh] Cleanup old backups"
-exec ls -d1 /data/* | head -n -${GITHUB_MAX_BACKUPS} | xargs rm -rf
+ls -d1 /data/* | head -n -${GITHUB_MAX_BACKUPS} | xargs rm -rf
