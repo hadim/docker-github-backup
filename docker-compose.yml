@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+
+  github-backup:
+    container_name: github-backup
+    build: ./
+    restart: unless-stopped
+    volumes:
+      - ../github_backup:/data
+    environment:
+      TIMEZONE: "America/Montreal"
+      PUID: 1000
+      PGID: 1000
+      CRONTAB_OPTIONS: "0 0 * * *"
+      GITHUB_USER: $GITHUB_USER
+      GITHUB_TOKEN: $GITHUB_TOKEN
+      GITHUB_MAX_BACKUPS: 5
+      GITHUB_BACKUP_OPTIONS: "--private --gists --all"

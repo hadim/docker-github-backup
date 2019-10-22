@@ -1,0 +1,5 @@
+#!/usr/bin/with-contenv sh
+
+cat << EOF > /etc/crontabs/root
+${CRONTAB_OPTIONS} sudo -u abc -g abc /github-backup.sh
+EOF

@@ -1,0 +1,4 @@
+#!/usr/bin/with-contenv bash
+
+echo "Execute cron service."
+exec crond -f
