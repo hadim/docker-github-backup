@@ -5,7 +5,7 @@ LABEL MAINTAINER "Hadrien Mary <hadrien.mary@gmail.com>"
 ENV S6_VERSION "v1.22.1.0"
 ENV S6_ARCH "amd64"
 
-RUN apk add --no-cache --update sudo bash tzdata curl coreutils shadow \
+RUN apk add --no-cache --update sudo bash tzdata curl coreutils shadow git \
 	&& apk add --no-cache --update python py-pip \
     && rm -rf /tmp/* \
     && rm -rf /var/cache/apk/*
