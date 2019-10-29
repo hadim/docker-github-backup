@@ -52,7 +52,15 @@ docker-compose up -d
 docker-compose logs -f github-backup
 ```
 
-## Parameters
+## Configurations
+
+### Data Volumes
+
+| Directory | Description |
+| --- | --- |
+| `/data` | Backup Directory |
+
+### Environment Variables
 
 | Parameter | Function | Default |
 | --- | --- | --- |
