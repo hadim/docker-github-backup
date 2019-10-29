@@ -6,7 +6,9 @@
 ![Docker Pulls](https://img.shields.io/docker/pulls/hadim/docker-github-backup)
 
 ![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)
-[![](https://img.shields.io/docker/stars/hadim/docker-github-backup.svg)](https://hub.docker.com/r/hadim/docker-github-backup 'DockerHub')
+[![](https://img.shields.io/docker/automated/hadim/docker-github-backup.svg)](https://hub.docker.com/r/hadim/docker-github-backup 'DockerHub')
+[![](https://img.shields.io/docker/build/hadim/docker-github-backup.svg)](https://hub.docker.com/r/hadim/docker-github-backup 'DockerHub')
+[![](https://img.shields.io/microbadger/image-size/hadim/docker-github-backup.svg)](https://hub.docker.com/r/hadim/docker-github-backup 'DockerHub')
 [![](https://img.shields.io/docker/pulls/hadim/docker-github-backup.svg)](https://hub.docker.com/r/hadim/docker-github-backup 'DockerHub')
 
 A Docker image that run [`github-backup`](https://github.com/josegonzalez/python-github-backup) periodically using `cron` and [`s6-overlay`](https://github.com/just-containers/s6-overlay).
