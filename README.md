@@ -55,7 +55,7 @@ docker-compose logs -f github-backup
 ## Parameters
 
 | Parameter | Function | Default |
-| :----: | --- | --- |
+| --- | --- | --- |
 | `TIMEZONE` | [Timezone string](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) | `"America/Montreal"` |
 | `PUID` | User ID (use `id $USER`) | `1000` |
 | `PGID` | Group ID (use `id $USER`) | `1000` |
