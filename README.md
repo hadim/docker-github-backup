@@ -2,8 +2,8 @@
 
 [![Docker Automated build](https://img.shields.io/docker/cloud/automated/hadim/docker-github-backup.svg)](https://hub.docker.com/r/hadim/docker-github-backup 'DockerHub')
 [![Docker Build Status](https://img.shields.io/docker/cloud/build/hadim/docker-github-backup.svg)](https://hub.docker.com/r/hadim/docker-github-backup 'DockerHub')
-[![MicroBadger Size](https://img.shields.io/microbadger/image-size/hadim/docker-github-backup.svg)](https://hub.docker.com/r/hadim/docker-github-backup 'DockerHub')
 [![Docker Pulls](https://img.shields.io/docker/pulls/hadim/docker-github-backup.svg)](https://hub.docker.com/r/hadim/docker-github-backup 'DockerHub')
+[![Docker Image Size](https://images.microbadger.com/badges/image/hadim/docker-github-backup.svg)](https://microbadger.com/images/hadim/docker-github-backup "MicroBadger")
 
 A Docker image that run [`github-backup`](https://github.com/josegonzalez/python-github-backup) periodically using `cron` and [`s6-overlay`](https://github.com/just-containers/s6-overlay).
 
