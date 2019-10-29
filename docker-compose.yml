@@ -4,6 +4,7 @@ services:
 
   github-backup:
     container_name: github-backup
+    #image: hadim/docker-github-backup
     build: ./
     restart: unless-stopped
     volumes:
