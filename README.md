@@ -1,7 +1,7 @@
 # docker-github-backup
 
-[![Docker Automated build](https://img.shields.io/docker/automated/hadim/docker-github-backup.svg)](https://hub.docker.com/r/hadim/docker-github-backup 'DockerHub')
-[![Docker Build Status](https://img.shields.io/docker/build/hadim/docker-github-backup.svg)](https://hub.docker.com/r/hadim/docker-github-backup 'DockerHub')
+[![Docker Automated build](https://img.shields.io/docker/cloud/automated/hadim/docker-github-backup.svg)](https://hub.docker.com/r/hadim/docker-github-backup 'DockerHub')
+[![Docker Build Status](https://img.shields.io/docker/cloud/build/hadim/docker-github-backup.svg)](https://hub.docker.com/r/hadim/docker-github-backup 'DockerHub')
 [![MicroBadger Size](https://img.shields.io/microbadger/image-size/hadim/docker-github-backup.svg)](https://hub.docker.com/r/hadim/docker-github-backup 'DockerHub')
 [![Docker Pulls](https://img.shields.io/docker/pulls/hadim/docker-github-backup.svg)](https://hub.docker.com/r/hadim/docker-github-backup 'DockerHub')
 
