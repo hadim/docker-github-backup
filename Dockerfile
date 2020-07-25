@@ -15,9 +15,9 @@ RUN curl -L -s https://github.com/just-containers/s6-overlay/releases/download/$
 COPY rootfs /
 
 RUN mkdir /data \
-	&& useradd -u 911 -U -s /bin/false abc 
+	&& useradd -u 911 -U -s /bin/false abc
 
-RUN pip install github-backup && github-backup -v
+RUN pip install PyGithub github-backup && github-backup -v
 
 ENV GITHUB_BACKUP_OPTIONS "--private --gists --all"
 ENV RSYNC_OPTIONS "--archive --timeout=3600 --verbose --progress"
